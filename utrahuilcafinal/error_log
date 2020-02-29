@@ -1,0 +1,15 @@
+[27-Dec-2019 15:38:33 UTC] PHP Notice:  Undefined variable: results in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPrueba/utrahuilcafinal/paginator.php on line 63
+[27-Dec-2019 15:38:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPrueba/utrahuilcafinal/noticiaCooperativas.php on line 759
+[27-Dec-2019 15:38:36 UTC] PHP Notice:  Undefined variable: results in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPrueba/utrahuilcafinal/paginator.php on line 63
+[27-Dec-2019 15:38:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPrueba/utrahuilcafinal/noticiaCooperativas.php on line 759
+[09-Jan-2020 14:09:33 UTC] PHP Notice:  Undefined variable: results in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/paginator.php on line 63
+[09-Jan-2020 14:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/noticiaCooperativas.php on line 865
+[14-Jan-2020 16:36:42 UTC] PHP Notice:  Undefined variable: results in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/paginator.php on line 63
+[14-Jan-2020 16:36:42 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/noticiaCooperativas.php on line 867
+[14-Jan-2020 16:37:53 UTC] PHP Notice:  Undefined variable: results in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/paginator.php on line 63
+[14-Jan-2020 16:37:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/noticiaCooperativas.php on line 867
+[17-Jan-2020 06:50:31 UTC] PHP Notice:  Undefined variable: results in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/paginator.php on line 63
+[17-Jan-2020 06:50:31 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/noticiaCooperativas.php on line 785
+[17-Jan-2020 07:06:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '{' or '$' in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/index.php on line 1408
+[17-Jan-2020 07:06:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '{' or '$' in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/index.php on line 1408
+[17-Jan-2020 07:06:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '{' or '$' in /home/etc5r6fvo97b/public_html/utrahuilca.coop/PaginaPruebas/utrahuilcafinal/index.php on line 1408

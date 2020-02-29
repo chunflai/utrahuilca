@@ -1,0 +1,44 @@
+			ul, ol {
+				list-style:none;  
+			}
+            
+            .navmax{
+                     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+            }
+			
+			.navmax > li {
+				float:left;
+                order: 1px solid white;
+			}
+			
+			.navmax li a {
+				background-color:white;
+				color:orange;
+				text-decoration:none;
+                border: 1px solid white;
+				padding:2px 12px;
+				display:block;
+			}
+			
+			.navmax li a:hover {
+                color:green
+			}
+			
+			.navmax li ul {
+				display:none;
+				position:absolute;
+				min-width:150px;
+			}
+			
+			.navmax li:hover > ul {
+				display:block;
+			}
+			
+			.navmax li ul li {
+				position:relative;
+			}
+			
+			.navmax li ul li ul {
+				right:-150px;
+				top:0px;
+			}

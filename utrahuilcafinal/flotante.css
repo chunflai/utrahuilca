@@ -1,0 +1,44 @@
+
+
+.my-float{
+font-size:24px;
+margin-top:18px;
+}
+
+a#share + ul{
+  visibility: hidden;
+}
+
+a#share:hover + ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+a#share i{
+                animation: rotate-in 0.5s;
+}
+
+a#share:hover > i{
+                animation: rotate-out 0.5s;
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-in {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-out {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+

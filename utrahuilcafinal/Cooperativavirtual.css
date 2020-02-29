@@ -1,0 +1,376 @@
+                                         #persona ul li ul li a {
+                                          color: #fff;
+                                          font-size: 14px; }
+
+
+                                          #persona ul li ul li a:hover {
+                                            color: yellow;
+                                            font-size: 14px; }
+
+                                            @media screen and (min-width:50px) and (max-width:499px) {
+                                              #creditNav{
+                                                padding: 10px;
+                                                height: 100px;
+                                              }
+
+                                              .classy-menu{
+                                                width: 80% !important;
+                                              }
+
+                                              .imgcoop{
+                                                background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                                width: 1000px !important; /* You must set a specified height */
+                                                margin-top: 0px !important;
+                                                height: 85px !important;
+                                                background-repeat: no-repeat; /* Do not repeat the image */
+                                              }
+
+                                              .imgcoopred{
+                                                background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                                width: 1000px !important; /* You must set a specified height */
+                                                margin-top: 0px !important;
+                                                height: 85px !important;
+                                                background-repeat: no-repeat; /* Do not repeat the image */
+                                              }
+                                              #virtualCoop{
+
+                                                width: 330px; margin-top: -68px;border-radius: 15px; opacity: 10;background-color: #eb9008 !important;margin-left: 18%;
+                                              }
+
+                                              .classy-navbar-toggler .navbarToggler{
+                                                padding-top: -55px !important;
+                                              }
+
+
+                                              .megamenu{
+                                                background: white !important;
+                                              }
+                                              #menuencre{
+                                                margin-left: 45.6% !important;
+                                              }
+
+                                        /*#img-virtual{
+                                          width: 700px;
+                                          height: 50px;
+                                        }
+
+                                        #menu-img{
+                                          background: white !important;
+                                          color: black !important;
+                                          }*/
+
+                                          #ul-fondo{
+                                            background: #166e23 !important;
+                                            margin: 12px 0px 0px -200px !important;
+                                            width: 800px !important;
+                                            padding: 10px !important;
+                                          }
+
+                                          #ul-fondo h5 {
+                                            color: yellow !important;
+                                          }
+
+
+                                        }  
+
+
+                                        @media screen and (min-width:500px) and (max-width:991px) {
+                                          .imgcoop{
+                                            background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                            width: 1000px !important; /* You must set a specified height */
+                                            margin-top: 0px !important;
+                                            height: 105px !important;
+                                            background-repeat: no-repeat; /* Do not repeat the image */
+                                          }
+
+                                          .imgcoopred{
+                                            background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                            width: 1000px !important; /* You must set a specified height */
+                                            margin-top: 0px !important;
+                                            height: 105px !important;
+                                            background-repeat: no-repeat; /* Do not repeat the image */
+                                          }
+                                          #virtualCoop{
+
+                                            width: 330px; margin-top: -68px;border-radius: 15px; opacity: 10;background-color: #eb9008 !important;margin-left: 18%;
+                                          }
+                                          #creditNav{
+                                            padding: 10px;
+                                            height: 100px;
+                                          }
+
+                                          .classy-navbar-toggler .navbarToggler{
+                                            padding-top: -55px !important;
+                                          }
+
+                                          .li-menu{
+                                            background: white !important;
+                                          }
+
+                                          .megamenu{
+                                            background: white !important;
+                                          }
+                                          #menuencre{
+                                            margin-left: 45.6% !important;
+                                          }
+
+                                        /*#img-virtual{
+                                          width: 700px;
+                                          height: 50px;
+                                        }
+
+                                        #menu-img{
+                                          background: white !important;
+                                          color: black !important;
+                                          }*/
+
+                                          #ul-fondo{
+                                            background: #166e23 !important;
+                                            margin: 12px 0px 0px -272px !important;
+                                            width: 800px !important;
+                                            padding: 10px !important;
+                                          }
+                                          #ul-fondo h5 {
+                                            color: yellow !important;
+                                          }
+                                        }  
+
+
+                                        @media screen and (min-width:992px) and (max-width:1199px) {
+                                          #menu-hover{
+                                            margin: -21px 0px 0px 848px !important;
+                                            width: 180px !important;
+                                            padding-left: 10px; 
+                                          }  
+                                       /* #img-virtual{
+                                          width: 180px !important;
+                                          }*/
+                                          
+                                          .bg-imgnews {
+                                            /*! background-position: center center; */ 
+                                            background-size: cover; 
+                                          /*! background-repeat: no-repeat; */  }
+
+                                          .imgcoop{
+                                            background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                            width: 250px; /* You must set a specified height */
+                                            height: 100px; /* You must set a specified height */
+                                            background-repeat: no-repeat; /* Do not repeat the image */
+                                            margin-top: -1px;
+                                          }
+
+                                          .imgcoopred{
+                                            background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                            width: 250px; /* You must set a specified height */
+                                            height: 100px; /* You must set a specified height */
+                                            background-repeat: no-repeat; /* Do not repeat the image */
+                                            margin-top: -1px;
+                                          }
+                                          #virtualCoop{
+                                            width: 330px; 
+                                            /*margin-top: -68px;*/
+                                            /*border-radius: 15px; */
+                                            opacity: 1;
+                                            background-color: #eb9008 !important;
+                                            margin-left: 18%;
+                                          }
+
+                                          #menuente{
+                                            margin-left: 58.6% !important;
+                                          }
+                                          #menuen{
+                                            margin-left: 59.6% !important;
+                                          }
+                                          #menuencre{
+                                            margin-left: 50.6% !important;
+                                          }
+
+                                          #menuent{
+                                            margin-left: 29.6% !important;
+                                          }
+
+                                        }  
+
+
+                                        @media screen and (min-width:1200px) and (max-width:1679px) {
+                                         .li-menu{
+                                          position: relative;
+                                          margin: 0px 0px 0px 0px !important;
+                                        }
+
+                                          /*#menu-img{
+                                            position: absolute;
+                                            margin: -10px 0px 0px 100px !important;
+                                            }*/
+
+                                            .bg-imgnews {
+                                              /*! background-position: center center; */ 
+                                              background-size: cover; 
+                                            /*! background-repeat: no-repeat; */  }
+
+                                            .bg-imgnews {
+                                              /*! background-position: center center; */ 
+                                              background-size: cover; 
+                                            /*! background-repeat: no-repeat; */  }
+
+                                            .imgcoop{
+                                              background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                              width: 300px; /* You must set a specified height */
+                                              height: 150px; /* You must set a specified height */
+                                              background-repeat: no-repeat; /* Do not repeat the image */
+                                               margin-top: -1px;
+                                            }
+
+                                            .imgcoopred{
+                                              background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                              width: 300px; /* You must set a specified height */
+                                              height: 150px; /* You must set a specified height */
+                                              background-repeat: no-repeat; /* Do not repeat the image */
+                                               margin-top: -1px;
+                                            }
+                                            #virtualCoop{
+
+                                              width: 330px; margin-top: -85px;border-radius: 15px; opacity: 10;background-color: #eb9008 !important;margin-left: 16%;
+                                            }
+
+                                            #menu-hover{
+                                              margin: 25px 0px 0px 13px !important;
+                                              padding: 15px;
+                                            }  
+                                            #menuente{
+                                              margin-left: 53.6% !important;
+                                            }
+                                            #menuen{
+                                              margin-left: 50.6% !important;
+                                            }
+                                            #menuencre{
+                                              margin-left: 45.6% !important;
+                                            }
+                                            #menuent{
+                                              margin-left: 36.6% !important;
+                                            }
+                                          }  
+
+
+                                          @media screen and (min-width:1300px) and (max-width:1679px) {
+                                           .li-menu{
+                                            position: relative;
+                                            margin: 0px 0px 0px 0px !important;
+                                          }
+
+                                          /*#menu-img{
+                                            position: absolute;
+                                            margin: -10px 0px 0px 100px !important;
+                                            }*/
+
+                                            .bg-imgnews {
+                                              /*! background-position: center center; */ 
+                                              background-size: cover; 
+                                            /*! background-repeat: no-repeat; */  }
+
+                                            .bg-imgnews {
+                                              /*! background-position: center center; */ 
+                                              background-size: cover; 
+                                            /*! background-repeat: no-repeat; */  }
+
+                                            .imgcoop{
+                                              background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                              width: 330px; /* You must set a specified height */
+                                              height: 150px; /* You must set a specified height */
+                                              background-repeat: no-repeat; /* Do not repeat the image */
+                                              margin-top: -8px;
+                                            }
+
+                                            .imgcoopred{
+                                              background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                              width: 330px; /* You must set a specified height */
+                                              height: 150px; /* You must set a specified height */
+                                              background-repeat: no-repeat; /* Do not repeat the image */
+                                              margin-top: -8px;
+                                            }
+                                            #virtualCoop{
+
+                                              width: 280px; margin-top: -82px;border-radius: 15px; opacity: 10;background-color: #eb9008 !important;margin-left: 16%;
+                                            }
+
+                                            #menu-hover{
+                                              margin: 25px 0px 0px 13px !important;
+                                              padding: 15px;
+                                            }  
+                                            #menuente{
+                                              margin-left: 53.6% !important;
+                                            }
+                                            #menuen{
+                                              margin-left: 50.6% !important;
+                                            }
+                                            #menuencre{
+                                              margin-left: 45.6% !important;
+                                            }
+                                            #menuent{
+                                              margin-left: 36.6% !important;
+                                            }
+                                          }  
+
+                                          @media screen and (min-width:1680px) {
+                                            .li-menu{
+                                              position: relative;
+                                              margin: 0px 0px 0px 0px !important;
+                                            }
+
+                                            .bg-imgnews {
+                                              /*! background-position: center center; */ 
+                                              background-size: cover; 
+                                            /*! background-repeat: no-repeat; */  }
+
+                                            .imgcoop{
+                                              background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                              width: 400px; /* You must set a specified height */
+                                              height: 150px; /* You must set a specified height */
+                                              margin-top: -20px;
+                                              background-repeat: no-repeat; /* Do not repeat the image */
+                                              z-index: 1000 !important;
+                                              position: absolute !important;
+                                            }
+
+                                            .imgcoopred{
+                                              background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                              width: 400px; /* You must set a specified height */
+                                              height: 150px; /* You must set a specified height */
+                                              margin-top: -20px;
+                                              background-repeat: no-repeat; /* Do not repeat the image */
+                                            }
+                                            #virtualCoop{
+
+                                              width: 330px; margin-top: -68px; 
+                                              opacity: 1;
+                                              background-color: #eb9008 !important;
+                                              margin-left: 18%; 
+                                              z-index: 100000000 !important;
+                                              position: absolute !important;
+                                              border-radius: 8px 0px 0px 0px;
+                                            }
+
+                                            #menu-hover{
+                                              margin: 26px 0px 0px 12px !important;
+                                              padding: 15px;
+                                            }  
+                                            #menuente{
+                                              margin-left: 49.6% !important;
+                                            }
+
+                                            #menuen{
+                                              margin-left: 51.6% !important;
+                                            }
+
+                                            #menuencre{
+                                              margin-left: 45.6% !important;
+                                            }
+
+                                            #menuent{
+                                              margin-left: 35.6% !important;
+                                            }
+                                          }
+
+
+
+

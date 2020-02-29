@@ -1,0 +1,132 @@
+
+#menunavbar {
+  padding-top: 20px;
+  position: fixed;
+  background-color: #fff;
+  height: 100%;
+  z-index: 10000;
+  width: 280px;
+  color: #eb9009;
+  top: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#menunavbar ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0
+}
+
+#menunavbar ul li { /*! border-bottom: 1px solid #2a2a2a; */ }
+
+#menunavbar>ul>li>p { ! border-left: 4px solid #222;  }
+
+#menunavbar ul li p {
+  color: inherit;
+  /*font-size: 16px; */
+  display: block;
+  padding: 0px 0 0px 15px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 600;      
+  cursor: pointer;
+}
+
+#menunavbar ul p i {
+  margin-right: 10px;
+  font-size: 18px;
+  margin-top: 3px;
+  width: 20px;
+}
+
+#menunavbar ul p i[class*='fa-caret'] { float: right; }
+
+#menunavbar ul p:hover,
+#menunavbar ul p.active {
+  background-color: #fff;
+  border-left-color: #FFCC33;
+  color: #059B4E;
+}
+
+#menunavbar ul p:hover i:first-child { color: #FFCC33; }
+
+/* Submenunavbar */
+
+#menunavbar ul li p.active+ul { display: block }
+
+#menunavbar ul li ul {
+  margin-top: 0;
+  display: none;
+}
+
+#menunavbar ul li ul li { border-bottom: none; }
+
+#menunavbar ul li ul li p { margin-left: 30px; padding: 5px; } 
+
+#menunavbar ul li ul li a { margin-left: 30px; margin-top: 10px; padding: 5px;} 
+
+#menunavbar ul li ul li p:hover { /*background-color: #1A1A1A;*/ }
+
+/* /Submenunavbar */
+
+
+/* Cuando este a la Izq, para esconderlo posicionarlo a la Izq a -width */
+
+.paraizq { left: -280px; }
+
+.show { left: 0; }
+
+#containernavbar { padding: 50px; }
+
+
+
+@media screen and (max-width:991px) {
+      #showmenunavbar {
+      display: block !important;
+      background: white;
+      margin-left: 100%;
+      position: absolute;
+      top: 0;
+      padding: 20px 10px 10px 10px;
+      font-size: 3.0em;
+      color: green;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+    
+    .imgcenter{
+      /*margin-left: 100px; */
+    }
+}
+
+@media screen and (min-width:1680px) {
+         #showmenunavbar {
+            display:none;
+         }
+         
+ 
+}
+
+#imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+      }
+      
+img {
+   /* padding-left: 20px;*/
+}
+      
+      
+}
+
+
