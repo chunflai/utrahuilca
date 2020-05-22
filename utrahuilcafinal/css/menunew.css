@@ -1,4 +1,4 @@
-			ul, ol {
+			nav ul, nav ol {
 				list-style:none;  
 			}
             
@@ -28,6 +28,7 @@
 				display:none;
 				position:absolute;
 				min-width:150px;
+				z-index:30;
 			}
 			
 			.navmax li:hover > ul {
@@ -37,8 +38,11 @@
 			.navmax li ul li {
 				position:relative;
 			}
-			
+			.navmax .submenu{
+			    max-width: 150px;
+			}
 			.navmax li ul li ul {
 				right:-150px;
 				top:0px;
+				z-index:31;
 			}

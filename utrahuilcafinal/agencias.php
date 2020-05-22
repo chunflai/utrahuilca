@@ -7,8 +7,7 @@ require_once '../config/conexion.php';
 <html lang="en">
 
 <head>
-  
-  <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/> 
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"; charset="utf-8"/> 
   <meta name="description" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -204,7 +203,7 @@ require_once '../config/conexion.php';
                       <p>Institucional</p>
                       <h2>Agencias</h2>
                     </div>
-                    <h6 class="mb-0">Estos son Nuestros Puntos de Atencion.</h6>
+                    <h6 class="mb-0">Estos son nuestros Puntos de Atención.</h6>
                     <div class="d-flex flex-wrap align-items-center justify-content-between">
                       <!-- Single Cool Facts -->
                       <div class="single-cool-fact white d-flex align-items-center mt-50">
@@ -241,7 +240,7 @@ require_once '../config/conexion.php';
                       <div class="col-12">
                         <div class="elements-title mb-30 section-heading">
                           <div class="line"></div>
-                          <h2>Selecciona tu punto de atencion cercano</h2>
+                          <h2>Seleccione su punto de atención cercano</h2>
                         </div>
                         <!-- Buttons -->
 						<?php
@@ -252,10 +251,10 @@ require_once '../config/conexion.php';
 							"and ciudades.idDepartamentosNacimiento=departamentos.idDepartamentosNacimiento order by cod";
 							$dep = ejecutarCOnsulta($query);
 							while ($deps=mysqli_fetch_array($dep)) {
-							$depa=utf8_encode($deps['dep']);
-							$codi=utf8_encode($deps['cod']);
+							$depa=$deps['dep'];
+							$codi=$deps['cod'];
 						?> 
-						<h4> Agencias en <?=$depa?></h4>
+						<h4> Agencias en <?=utf8_encode($depa)?></h4>
 						 <?php
 				    
 							$query = "SELECT idagencia,titulo,agenciamini FROM `agencia` WHERE estado='1' and departamento='".$codi."' order by agenciamini,titulo;";
@@ -264,7 +263,7 @@ require_once '../config/conexion.php';
 						
 						<div class="credit-buttons-area mb-30">
 						<?php while ($mostrar=mysqli_fetch_array($results)) {
-                          echo ("<a href='agencias.php?id=".$mostrar['idagencia']."#info_agencia' class='btn credit-btn btn-3 m-2'>".utf8_encode($mostrar['titulo'])."</a>");
+                          echo ("<a href='agencias.php?id=".utf8_encode($mostrar['idagencia'])."#info_agencia' class='btn credit-btn btn-3 m-2'>".utf8_encode($mostrar['titulo'])."</a>");
 						 }?>
 						</div>
 							<?php }?>
@@ -314,7 +313,7 @@ and idagencia='".$id."'";
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="about-thumbnail">
-                    <img src="agencias/imagenes/<?php  echo $mostrar['imagen'];?>" alt="fotografía de agencia Utrahuilca <?php  echo utf8_encode($mostrar['titulo']);?>" style="width:100%">
+                    <img src="agencias/imagenes/<?php  echo $mostrar['imagen'];?>" alt="fotografía de agencia Utrahuilca <?php  echo ($mostrar['titulo']);?>" style="width:100%">
                   </div>
                 </div>
 			  <!--mapa-->

@@ -196,10 +196,9 @@ require_once '../config/conexion.php';
 <!--simulador inicio-->
 <div class="container">
 <h2> Simulador de crédito</h2>
-<p>Los valores de este simulador son informativos, aproximados y pueden variar. Le recomendamos pasar por la oficina más cercana de <strong>Utrahuilca</strong> para obtener información más precisa.</p>
 <p>El cálculo que se presenta es aproximado e informativo y puede presentar variación. 
 No constituye compromiso de otorgamiento de crédito, para el cual se deberá realizar el estudio
-de la solicitud de crédito acorde a las políticas de la cooperativa.  Le recomendamos acercarse a la oficina más cercana de Utrahuilca para obtener información más precisa.
+de la solicitud de crédito acorde a las políticas de la cooperativa.  Le recomendamos acercarse a la oficina más cercana de <strong>Utrahuilca</strong> para obtener información más precisa.
 </p>
 <form action="" id="simulcred">
     <div class="fila1">
@@ -254,16 +253,7 @@ de la solicitud de crédito acorde a las políticas de la cooperativa.  Le recom
 		<label for="destino">Plazo en meses*:</label>
         <input id="plazo" ng-trim="true" onkeypress="return validarEspacios(event)" maxlength="2" required="" class="form-control input-sm monto-sol ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" placeholder="Plazo en meses"> 
        </div>
-	   <div class="antiguedad">
-		<label for="destino">Antigüedad*:</label>
-        <select class="form-control input-sm" required="true" id ="antiguo" onchange="">
-					<option value="">Seleccione</option>
-					<option value="A">Hasta 10 años</option>
-					<option value="B">Entre 10 y 15 años</option>
-					<option value="C">Entre 15 y 20 años</option>
-					<option value="D">Entre 20 y 30 años</option>
-					<option value="E">Más de 30 años</option>
-				</select></div>
+	   
 				
         <div class="calculo">
 		 <div class="row bsimul">

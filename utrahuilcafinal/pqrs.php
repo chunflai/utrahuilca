@@ -249,9 +249,9 @@ Para nosotros es muy importante contar con su opinión, en pro de mejorar nuestr
                   <form id="form1" class="well col-lg-12" action="enviar.php" method="post" name="form1">
                     <div class="row">
                      <div class="col-lg-6">
-                      <label>Nombre*</label> <input id="Nombre" class="form-control" type="text" name="Nombre" /> 
-                      <label>Apellidos*</label> <input id="Apellido" class="form-control" type="text" name="Apellido" /> 
-                      <label>Email*</label> <input id="Email" class="form-control" type="email" name="Email" />
+                      <label>Nombre*</label> <input type="text" id="Nombre" class="form-control" type="text" name="Nombre" /> 
+                      <label>Apellidos*</label> <input type="text" id="Apellido" class="form-control" type="text" name="Apellido" /> 
+                      <label>Email*</label> <input type="email" id="Email" class="form-control" type="email" name="Email" />
 
                       <label>Tipo de Documento (*):</label>
                       <select  class="form-control selectpicker" name="Tipo_Identificacion" id="Tipo_Identificacion"  required>
@@ -263,8 +263,8 @@ Para nosotros es muy importante contar con su opinión, en pro de mejorar nuestr
                         <option value="Otro Documento">Otro Documento</option> 
                         <option value="Pasaporte">Pasaporte</option> 
                       </select>
-                      <label>Numero Identificacion*</label> <input id="Numero_Identificacion" class="form-control"  name="Numero_Identificacion"required />
-                      <label>Celular*</label>   <input id="celular" class="form-control" name="celular" />
+                      <label>Numero Identificacion*</label> <input type="number" id="Numero_Identificacion" class="form-control"  name="Numero_Identificacion"required />
+                      <label>Celular*</label>   <input type="number" id="celular" class="form-control" name="celular" />
                       <label>Direccion*</label>  <input id="Direccion" class="form-control" type="text" name="Direccion" />
                     </div>
 

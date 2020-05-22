@@ -292,7 +292,7 @@ require_once '../config/conexion.php';
                           <i class="fa fa-money"></i>
                         </div>
                         <div class="text">
-                         <h5>Rentabilidad Econ&oacute;mica y Social</h5>
+                         <h5>Rentabilidad econ&oacute;mica y social</h5>
                          <p style=" text-align: justify;">Producir resultados econ&oacute;micos y sociales, que garanticen el desarrollo empresarial y contribuyan a mejorar la calidad de vida de los asociados y la comunidad.</p>
                        </div>
                      </div>
@@ -318,7 +318,7 @@ require_once '../config/conexion.php';
                       <i class="fa fa-handshake-o"></i>
                     </div>
                     <div class="text">
-                     <h5>Clima Organizacional Gratificante</h5>
+                     <h5>Clima Organizacional gratificante</h5>
                      <p style=" text-align: justify;">Propiciar en UTRAHUILCA, un ambiente de trabajo gratificante; que genere excelencia del acuerdo cooperativo.</p>
                    </div>
                  </div>
@@ -331,7 +331,7 @@ require_once '../config/conexion.php';
                     <i class="fa fa-flag-checkered"></i>
                   </div>
                   <div class="text">
-                    <h5>Competitividad Empresarial</h5>
+                    <h5>Competitividad empresarial</h5>
                     <p style=" text-align: justify;">Generar acciones, productos y servicios que posicionen a UTRAHUILCA en el primer nivel de las empresas Cooperativas de Ahorro y Cr&eacute;dito.</p>
                   </div>
                 </div>
@@ -344,7 +344,7 @@ require_once '../config/conexion.php';
                     <i class="fa fa-institution"></i>
                   </div>
                   <div class="text">
-                    <h5>Acci&oacute;n Pol&iacute;tica</h5>
+                    <h5>Acci&oacute;n pol&iacute;tica</h5>
                     <p>Organizar, promover y difundir espacios de formaci&oacute;n y acciones pol&iacute;ticas para el desarrollo del modelo alternativo de econom&iacute;a solidaria.</p>
                   </div>
                 </div>
@@ -428,7 +428,7 @@ require_once '../config/conexion.php';
                   <i class="fa fa-check-square-o"></i>
                 </div>
                 <div class="text">
-                  <h5>Etica</h5>
+                  <h5>Ética</h5>
                   <p>Comportamiento acorde con la doctrina y filosof&iacute;a cooperativa e institucional para el beneficio colectivo.</p>
                 </div>
               </div>
@@ -492,12 +492,12 @@ require_once '../config/conexion.php';
       <!-- ##### valores Area End ###### -->
 
       <!-- ##### Newsletter Area Start ###### -->
-      <section class="newsletter-area section-padding-100 bg-img jarallax" style="background-image: url(img/bg-img/6.jpg);">
+      <section class="newsletter-area section-padding-100 bg-img jarallax" style="background-image: url(img/bg-img/somos.jpg);">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 col-sm-10 col-lg-8">
               <div class="nl-content text-center">
-                <h2>Las personas vinculadas a UTRAHUILCA se destacaran y diferenciaran por resaltar en el actuar personal e institucional los anteriores principios y valores cooperativos.</h2> 
+                <h2>Las personas vinculadas a la Cooperativa UTRAHUILCA se destacarán y diferenciarán por resaltar en el actuar personal e institucional los anteriores principios y valores cooperativos.</h2> 
               </div>
             </div>
           </div>

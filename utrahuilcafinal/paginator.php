@@ -44,7 +44,6 @@ class Paginator {
             " LIMIT {$this->_row_start}, $this->_limit";
         }
         
-        //echo $query;die;
         
         $rs = $this->_conn->query( $query ) or die($this->_conn->error);
 

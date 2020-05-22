@@ -58,10 +58,12 @@ a:focus {
 ul,
 ol {
   margin: 0; }
-  ul li,
-  ol li {
+  nav ul li,
+  nav ol li {
     list-style: none; }
-
+.footer-area p{
+	font-size:0.9rem;
+}
 img {
   height: auto;
   max-width: 100%; }
@@ -894,7 +896,7 @@ img {
   .cta-area .cta-content {
     position: relative;
     z-index: 1;
-    padding: 100px 5%;
+    padding: 60px 5%;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -1191,7 +1193,7 @@ border-radius: 15px;
 margin: 5px;
 }
 .newsletter-area {
-	background-image: url("img/bg-img/6.jpg")!important;
+	background-image: url("img/bg-img/6.jpg");
   position: relative;
   z-index: 3; }
   .newsletter-area::after {
@@ -2189,7 +2191,7 @@ margin: 5px;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
     content: '';
     z-index: 5; }
   .single-welcome-post .welcome-post-content {
@@ -2407,7 +2409,7 @@ margin: 5px;
     .single-blog-post.white .blog-content .post-meta a:focus {
       color: #F47216; }
   .single-blog-post.style2 .blog-content .post-title {
-    font-size: 24px; }
+    font-size: 24px; line-height:1.2;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-blog-post.style2 .blog-content .post-title {
         font-size: 20px; } }
@@ -2629,12 +2631,9 @@ margin: 5px;
 ##UtraPortalJuridica .project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     background-color: #28b463;
 }
-.listacred{width: 100%;flex-flow: row;display:flex;
-    justify-content: space-between;}
-.itemcred {
-    width: 12%;
-    margin-bottom: 0px;
-}
+.listacred{width: 100%;flex-flow: row wrap;display:flex;
+    justify-content: space-between;align-items:strech;}
+
 
 .itemcred a img{
     height:100px;
@@ -2686,34 +2685,33 @@ flex-flow: column;
 	
 }
 
+.navmax i{
+	padding:0 !important;
+}
+.breadcrumb{
+	background-color:#FaFcF900 !important;
+}
+.breadcrumb a{
+	color: #059B4E;
+	margin:0 6px;
+}
 #simuladores:hover,
 .enlace:hover{
 background-color: #059B4E;}
 
 #simuladores{
-	position: fixed;
-z-index: 2147483648;
-    background-color: #F47216;
-border-radius: 5px 0 0 5px;
-bottom: 131px;
-color:
-#ffffff;
-font-size: 10px;
-padding: 12px 0;
-height: 137px;
-line-height: 1.5;
-right: 0;
+background-color:#F47216;
+color:#ffffff;
+font-size: 1rem;
 text-align: center;
-width: 35px;
 -webkit-transition-duration: 500ms;
 transition-duration: 500ms;
-font-weight: 700;
-box-shadow: 0 1px 5px 2px
-    rgba(0, 0, 0, 0.15);
-    text-transform: uppercase;
 
+text-transform: uppercase;
+
+padding: 4px 2%;
+margin:0 2%	
 }
-
 .simul{
 	    display: flex;
     -webkit-transform: rotate(-90deg);
@@ -2865,12 +2863,19 @@ bottom:2%;
 	max-width:50%;
 }
 .funda img{width:100%}
-.fundab{position:relative}
+.funda{position:relative;
+padding:0;
+}
 .botonfunda{
 	
-    position: absolute;
-    text-align: center;
-    bottom: 20vh;
+   position: absolute;
+text-align: center;
+top: 190px;
+left: -11%;
+}
+
+.modal-header{
+	font-size: 0.8rem !important;
 }
 /*fin de estilos nuevos*/
 # sourceMappingURL=style.css.map 

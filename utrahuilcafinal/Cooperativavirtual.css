@@ -19,18 +19,18 @@
 
                                               .imgcoop{
                                                 background-image: url(AgenciaVirtual/boton_red-03.svg);
-                                                width: 1000px !important; /* You must set a specified height */
+                                                width: 1000px !important; 
                                                 margin-top: 0px !important;
                                                 height: 85px !important;
-                                                background-repeat: no-repeat; /* Do not repeat the image */
+                                                background-repeat: no-repeat; 
                                               }
 
                                               .imgcoopred{
                                                 background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
-                                                width: 1000px !important; /* You must set a specified height */
+                                                width: 1000px !important;
                                                 margin-top: 0px !important;
                                                 height: 85px !important;
-                                                background-repeat: no-repeat; /* Do not repeat the image */
+                                                background-repeat: no-repeat; 
                                               }
                                               #virtualCoop{
 
@@ -75,21 +75,21 @@
 
 
                                         @media screen and (min-width:500px) and (max-width:991px) {
-                                          .imgcoop{
-                                            background-image: url(AgenciaVirtual/boton_red-03.svg);
-                                            width: 1000px !important; /* You must set a specified height */
-                                            margin-top: 0px !important;
-                                            height: 105px !important;
-                                            background-repeat: no-repeat; /* Do not repeat the image */
-                                          }
+                                        .imgcoop{
+                                                background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                                width: 1000px !important; 
+                                                margin-top: 0px !important;
+                                                height: 105px !important;
+                                                background-repeat: no-repeat; 
+                                              }
 
-                                          .imgcoopred{
-                                            background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
-                                            width: 1000px !important; /* You must set a specified height */
-                                            margin-top: 0px !important;
-                                            height: 105px !important;
-                                            background-repeat: no-repeat; /* Do not repeat the image */
-                                          }
+                                              .imgcoopred{
+                                                background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                                width: 1000px !important;
+                                                margin-top: 0px !important;
+                                                height: 105px !important;
+                                                background-repeat: no-repeat; 
+                                              }
                                           #virtualCoop{
 
                                             width: 330px; margin-top: -68px;border-radius: 15px; opacity: 10;background-color: #eb9008 !important;margin-left: 18%;
@@ -151,21 +151,21 @@
                                             background-size: cover; 
                                           /*! background-repeat: no-repeat; */  }
 
-                                          .imgcoop{
-                                            background-image: url(AgenciaVirtual/boton_red-03.svg);
-                                            width: 250px; /* You must set a specified height */
-                                            height: 100px; /* You must set a specified height */
-                                            background-repeat: no-repeat; /* Do not repeat the image */
-                                            margin-top: -1px;
-                                          }
+                                        .imgcoop{
+                                                background-image: url(AgenciaVirtual/boton_red-03.svg);
+                                                width: 1000px !important; 
+                                                margin-top: 0px !important;
+                                                height: 100px !important;
+                                                background-repeat: no-repeat; 
+                                              }
 
-                                          .imgcoopred{
-                                            background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
-                                            width: 250px; /* You must set a specified height */
-                                            height: 100px; /* You must set a specified height */
-                                            background-repeat: no-repeat; /* Do not repeat the image */
-                                            margin-top: -1px;
-                                          }
+                                              .imgcoopred{
+                                                background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                                width: 1000px !important;
+                                                margin-top: 0px !important;
+                                                height: 100px !important;
+                                                background-repeat: no-repeat; 
+                                              }
                                           #virtualCoop{
                                             width: 330px; 
                                             /*margin-top: -68px;*/
@@ -214,20 +214,20 @@
                                             /*! background-repeat: no-repeat; */  }
 
                                             .imgcoop{
-                                              background-image: url(AgenciaVirtual/boton_red-03.svg);
-                                              width: 300px; /* You must set a specified height */
-                                              height: 150px; /* You must set a specified height */
-                                              background-repeat: no-repeat; /* Do not repeat the image */
-                                               margin-top: -1px;
-                                            }
+                                                background-image: url(AgenciaVirtual/boton_red-03.svg);*/
+                                                width: 300px !important; 
+                                                margin-top: 0px !important;
+                                                height: 150px !important;
+                                                background-repeat: no-repeat; 
+                                              }
 
-                                            .imgcoopred{
-                                              background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
-                                              width: 300px; /* You must set a specified height */
-                                              height: 150px; /* You must set a specified height */
-                                              background-repeat: no-repeat; /* Do not repeat the image */
-                                               margin-top: -1px;
-                                            }
+                                              .imgcoopred{
+                                                background-image: url(AgenciaVirtual/Cooperativa_Virtual_Utrahuilca_OK-03.svg);
+                                                width: 300px !important;
+                                                margin-top: 0px !important;
+                                                height: 150px !important;
+                                                background-repeat: no-repeat; 
+                                              }
                                             #virtualCoop{
 
                                               width: 330px; margin-top: -85px;border-radius: 15px; opacity: 10;background-color: #eb9008 !important;margin-left: 16%;

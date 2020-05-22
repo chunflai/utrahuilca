@@ -251,201 +251,7 @@ require_once '../config/conexion.php';
       
    <?php include 'menu.php';?>
    
-              <!-- Modal -->
-              <div class="modal fade bd-example-modal-lg" tabindex="-1" id="UtraPortalNuatural" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-header bg-white font-weight-bold" style="width: 165px; height:55px">
-                    <b>Soy Asociado <br>
-                    Persona Natural</b>
-                  </div>
-                  <div class="modal-content" style="border: 1px solid white">
-                    <div class="modal-body pb-5 mt-3" style="margin: 0;padding: 0;">
-                      <div id="contenido11">
-                        <nav>
-                          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" style="background: #1f8a32">
-                            <a class="nav-item nav-link active" id="nav-home-tab1" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true"><b style="font-size: 25px; color: white">¿Usuario <br> Nuevo?</b></a>
-                            <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false"><b style="font-size: 25px; color: white">Usuario <br>Registrado</b></a>
-                          </div>
-                        </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                          <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
-                            <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">
-                            Debe tener correo electrónico y número de celular actualizado y correcto, ya que estos serán los medios que se usarán para la confirmación al momento de registro.</p>
-                            <div class="col text-center mt-5">
-                              <button class="btn btn-lg text-white w-50"  role="link" onclick="window.location='http://192.168.101.137:8081/Registry.aspx'" style="background: #eb9008">Registrarse</button>
-                            </div>
-                          </div>
-                          <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">
-                            Podrá realizar consultas de información, generar extractos, certificaciones tributarias y Certificado de Asociado.</p>
-                            <div class="col text-center mt-5">
-                              <button class="btn btn-lg text-white w-50" role="link" onclick="window.location='http://192.168.101.137:8081/Login.aspx'" style="background: #eb9008">Ingresar</button>
-                              <p class="font-weight-bold"> <a href="#Recomendaciones" data-toggle="modal" >Ver recomendaciones de seguridad </a></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- ##### Header Area End ##### -->
-
-              <!-- Modal -->
-              <div class="modal fade bd-example-modal-lg" tabindex="-1" id="UtraPortalJuridica" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-header bg-white font-weight-bold" style="width: 165px; height:55px">
-                    <b>Soy Asociado <br>
-                    Persona Jurídica</b>
-                  </div>
-                  <div class="modal-content" style="border: 1px solid white">
-                    <div class="modal-body pb-5 mt-3" style="margin: 0;padding: 0;">
-                      <div id="contenido11">
-                        <nav>
-                          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" style="background: #1f8a32">
-                            <a class="nav-item nav-link active" id="nav-home-tab2" data-toggle="tab" href="#nav-home2" role="tab" aria-controls="nav-home" aria-selected="true"><b style="font-size: 25px; color: white">¿Usuario <br> Nuevo?</b></a>
-                            <a class="nav-item nav-link" id="nav-profile-tab2" data-toggle="tab" href="#nav-profile2" role="tab" aria-controls="nav-profile" aria-selected="false"><b style="font-size: 25px; color: white">Usuario <br>Registrado</b></a>
-                          </div>
-                        </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                          <div class="tab-pane fade show active" id="nav-home2" role="tabpanel" aria-labelledby="nav-home-tab">
-                            <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">
-                            Debe tener correo electrónico y número de celular actualizado y correcto, ya que estos serán los medios que se usarán para la confirmación al momento de registro.</p>
-                            <div class="col text-center mt-5">
-                              <button class="btn btn-lg text-white w-50"  role="link" onclick="window.location='http://192.168.101.137:8081/Registry.aspx'" style="background: #eb9008">Registrarse</button>
-                            </div>
-                          </div>
-                          <div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">
-                            Podrá realizar consultas de información, generar extractos, certificaciones tributarias y Certificado de Asociado.</p>
-                            <div class="col text-center mt-5">
-                              <button class="btn btn-lg text-white w-50" role="link" onclick="window.location='http://192.168.101.137:8081/Login.aspx'" style="background: #eb9008">Ingresar</button>
-                              <p class="font-weight-bold"> <a href="#Recomendaciones" data-toggle="modal" >Ver recomendaciones de seguridad </a></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- ##### Header Area End ##### -->
-
-
-
-
-
-              <!-- Modal -->
-              <div class="modal fade bd-example-modal-lg" tabindex="-1" id="Recomendaciones" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-header bg-white font-weight-bold" style="width: 165px; height:55px">
-                    <b>Recomendaciones
-                    </b>
-                  </div>
-                  <div class="modal-content" style="border: 1px solid white">
-                    <div class="modal-body pb-5 mt-3" style="margin: 0;padding: 0;">
-                      <div id="contenido6">
-                        <div class="tab-content" id="nav-tabContent">
-                          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                            <h3 class="text-center mt-5" style="color: #eb9008">TENGA EN CUENTA LAS SIGUIENTES RECOMENDACIONES DE SEGURIDAD:</h3>
-                            <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">Realice sus transacciones únicamente desde equipos de uso personal, evite el uso de equipos ubicados en sitios públicos o que no sean de absoluta confianza como los café Internet, salas universitarias o lugares donde extraños puedan tener acceso a su información confidencial. </p>
-                            <div class="float-right mr-5" style="cursor: pointer;">
-                              <div id="next6"><h1 style="color: #eb9008">Continúe <i class="fa fa-forward fa-lg" aria-hidden="true"></i></h1></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div id="contenido7" style="display: none;">
-                        <h1 class="text-center mt-5" style="color: #eb9008">Recomendaciones</h1>
-                        <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">Nunca ingrese a través de enlaces en correos electrónicos falsos (phishing), que puedan llevarle a sitios fraudulentos. Recuerde que UTRAHUILCA no solicita información confidencial por este medio. <br></p>
-
-                        <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">El Usuario y la Clave Principal es personal e intransferible, no se puede compartir con nadie, darlas a conocer generará riesgos de fraudes.<br></p>
-                        <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">Utilice contraseñas fáciles de recordar para usted, memorícelas y no la escriba en ningún lugar, en caso de olvidar la clave debe ingresar a la Cooperativa Virtual UTRAHUILCA para reestablecerla.<br></p>
-
-
-
-                        <div class="float-right mr-5" style="cursor: pointer;">
-                          <div id="next7"><h1 style="color: #eb9008">Continúe <i class="fa fa-forward fa-lg" aria-hidden="true"></i></h1></div>
-                        </div>
-                      </div>
-
-                      <div id="contenido8" style="display: none">
-                        <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">Para mayor seguridad NO utilice en sus claves: 
-                          <i class="fa fa-check "></i> Secuencia de números, ejemplo: 1234, 5678…
-                          <br>
-                        </p>
-                        <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px"> <i class="fa fa-check "></i> Los números de su teléfono celular, fecha de cumpleaños, fechas de nacimiento, número de documento de identidad o dirección.
-                          <br>
-                          <i class="fa fa-check "></i> El mismo carácter, por ejemplo 1111, 2222, 3333 …
-                          <br>
-                          <i class="fa fa-check "></i> Los mimos caracteres numéricos que conforman el nombre de su usuario en la agencia virtual (Si los tiene).
-                          <br></p>
-                          <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">Utilice contraseñas fáciles de recordar para usted, memorícelas y no la escriba en ningún lugar, en caso de olvidar la clave debe ingresar a la Cooperativa Virtual UTRAHUILCA para reestablecerla.<br></p>
-
-                          <div class="float-right mr-5" style="cursor: pointer;">
-                            <div id="next8"><h1 style="color: #eb9008">Continúe <i class="fa fa-forward fa-lg" aria-hidden="true"></i></h1></div>
-                          </div>
-                        </div>
-                        <div id="contenido9" style="display: none">
-                          <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">UTRAHUILCA nunca solicitará el cambio de claves a través de correo electrónico o mensajes de texto.<br></p>
-                          <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">Nunca preste su cuenta para recibir fondos cuyo origen usted desconoce.<br></p>
-                          <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">El Usuario y la Clave Principal es personal e intransferible, no se puede compartir con nadie, darlas a conocer generará riesgos de fraudes. <br></p>
-                          <div class="float-right mr-5" style="cursor: pointer;">
-                            <div id="next9"><h1 style="color: #eb9008">Continúe <i class="fa fa-forward fa-lg" aria-hidden="true"></i></h1></div>
-                          </div>
-                        </div>
-
-                        <div id="contenido10" style="display: none">
-                          <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">La Cooperativa Virtual UTRAHUILCA no permite conexiones simultáneas, por lo tanto el usuario solo podrá tener una única sesión activa.<br></p>
-                          <p class="text-dark mt-3 ml-5 mr-5 text-justify" style="font-size: 25px">Asegurarse de cerrar sesión una vez termine las transacciones para evitar que otros ingresen a ella. Dejar las sesiones abiertas pone en peligro la privacidad y seguridad de su información. Siempre finalice la sesión de Cooperativa Virtual UTRAHUILCA a través de la opción “Cierre de Sesión”.<br></p>
-                          <div class="float-right mr-5" style="cursor: pointer;">
-                            <button type="button"  data-dismiss="modal"><h1 style="color: #eb9008">Cerrar <i class="fa fa-close fa-lg" aria-hidden="true"></i></h1></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- ##### Header Area End ##### -->
-
-                <!-- ##### Call To Action Start ###### -->
-                <section class="cta-area d-flex flex-wrap">
-                  <!-- Cta Content -->
-                  <div class="cta-content">
-                    <!-- Section Heading -->
-                    <div class="section-heading white">
-                      <div class="line"></div>
-                      <p>Institucional</p>
-                      <h2>Trabaje con Nosotros</h2>
-                    </div>
-                    <h6 class="mb-0">Nuestro talento humano es la mayor fortaleza que tenemos, queremos que hagas parte de nuestro proyecto cooperativo, que trabaja incansablemente por el desarrollo personal y profesional de cada uno de sus colaboradores/as.</h6>
-                    <br>  
-                  </div>
-                  <!-- Cta Thumbnail -->
-                  <div class="cta-thumbnail bg-img jarallax" style="background-image: url(img/trabaje/trabaje.jpg);"></div>
-                </section>
-                <!-- ##### Call To Action End ###### -->
-
-                <!-- ##### Call To Action Start ###### -->
-                <section class="cta-2-area">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-12">
-                        <!-- Cta Content -->
-                        <div class="cta-content d-flex flex-wrap align-items-center justify-content-between">
-                          <div class="cta-text">
-                            <h4>Pol&iacute;ticas Generales de Reclutamiento.</h4>
-                            <p>Conoce nuestras condiciones para aplicar a las convocatorias</p>
-                          </div>
-                          <div class="cta-btn">
-                            <a href="javascript:mostrarVentanaPoliticas();" class="btn credit-btn box-shadow">Leer Mas</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <!-- ##### Call To Action End ###### -->
+            
 
                 <!-- ##### Team Member Area Start ##### -->
                 <section class="team-area section-padding-100-0">
@@ -465,17 +271,17 @@ require_once '../config/conexion.php';
 
                       <!-- Single Team Member Area -->
                       <?php 
-                      $sql="SELECT * FROM `condicion` WHERE estado= '1'";
+                      $sql="SELECT * FROM trabaje WHERE estado= '1'";
                       $result=mysqli_query($conexion,$sql);
                       while ($mostrar=mysqli_fetch_array($result)) {
                         ?>
                         <div class="col-12 col-sm-6 col-lg-3">
                           <div class="single-team-member-area mb-100">
-                            <div class="team-thumb">
-                              <img src="../filesN/<?php  echo $mostrar['imagen'];?>" alt="">
+                            <div class="team-thumb" style="background-image:url('../filesN/<?php  echo $mostrar['imagen'];?>')">
+                              <img class="trabaje" href="../filesN/<?php  echo $mostrar['imagen'];?>">
                               <!-- View More -->
                               <div class="view-more">
-                                <a href="<?php  echo $mostrar['link'];?>">+</a>
+                                <a href="trabaje_con_nosotros?id=<?php  echo $mostrar['idtrabaje'];?>">+</a>
                               </div>
                             </div>
                             <div class="team-info">

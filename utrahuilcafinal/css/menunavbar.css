@@ -4,9 +4,8 @@
   position: fixed;
   background-color: #fff;
   height: 100%;
-  z-index: 10000;
+  z-index: 1001;
   width: 280px;
-  color: #eb9009;
   top: 0;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -15,7 +14,9 @@
   font-family: 'Source Sans Pro', sans-serif;
 
 }
-
+#menunavbar a{
+	color: #eb9009;
+}
 #menunavbar ul {
   list-style: none;
   margin-top: 0;
@@ -48,8 +49,8 @@
 
 #menunavbar ul p i[class*='fa-caret'] { float: right; }
 
-#menunavbar ul p:hover,
-#menunavbar ul p.active {
+#menunavbar ul p a:hover,
+#menunavbar ul p a.active {
   background-color: #fff;
   border-left-color: #FFCC33;
   color: #059B4E;
@@ -70,7 +71,7 @@
 
 #menunavbar ul li ul li p { margin-left: 30px; padding: 5px; } 
 
-#menunavbar ul li ul li a { margin-left: 30px; margin-top: 10px; padding: 5px;} 
+#menunavbar ul li ul li>a { margin-left: 30px; margin-top: 10px; padding: 5px;} 
 
 #menunavbar ul li ul li p:hover { /*background-color: #1A1A1A;*/ }
 
@@ -94,17 +95,25 @@
       margin-left: 100%;
       position: absolute;
       top: 0;
-      padding: 20px 10px 10px 10px;
+      padding: 20px 10px 8px 10px;
       font-size: 3.0em;
       color: green;
       -webkit-transition: all 0.3s ease;
       -moz-transition: all 0.3s ease;
       transition: all 0.3s ease;
     }
-    
+	 #showmenunavbar>i{
+		 color: green!important;
+	 }
+	
     .imgcenter{
       /*margin-left: 100px; */
     }
+	#creditNav.classy-navbar div.contact a img{
+		position:fixed;
+		right:20px;
+		top:30px;
+	}
 }
 
 @media screen and (min-width:1680px) {
@@ -114,7 +123,8 @@
          
  
 }
-
+ 
+    
 #imgcenter{
       display: block;
       margin-left: auto;

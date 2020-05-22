@@ -207,7 +207,7 @@ require_once '../config/conexion.php';
                     <h6>Estas son nuestras Alianzas Cooperativas.</h6>
                   </div>
                   <!-- Cta Thumbnail -->
-                  <div class="cta-thumbnail bg-img jarallax" style="background-image: url(img/bg-img/5.jpg);"></div>
+                  <div class="cta-thumbnail bg-img jarallax" style="background-image: url(img/bg-img/alianzas.jpg);"></div>
                 </section>
                 <!-- ##### Call To Action End ###### -->
                 <!-- ========== Web Icons ========== -->

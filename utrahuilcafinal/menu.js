@@ -14,11 +14,11 @@ $(document).ready(function () {
 			$("body").css('position', 'relative');
 			$(this).addClass("imgcoopred");
 			$(this).removeClass("imgcoop");
-			$(this).css('width','350px');
+			/*$(this).css('width','350px');
 			$(this).css('margin','-20px 0px 0px -140px');
 			$(this).css('opacity', '1');
 			$(this).css('z-index', '1000 !important');
-			$(this).css('position', 'absolute');
+			$(this).css('position', 'absolute');*/
 			$("#virtualCoop").css('width','410px');
 			$("#fondo-modal").css('background','white');
 		}, function(){
@@ -34,11 +34,11 @@ $(document).ready(function () {
 		$("#imgempresa").hover(function(){
 			$(this).addClass("imgcoopred");
 			$(this).removeClass("imgcoop");
-			$(this).css('width','500px');
+			/*$(this).css('width','500px');
 			$(this).css('margin','-20px 0px 0px -140px');
 			$("#virtualCoop").css('width','410px');
 			$("#virtualCoop").css('z-index','0 !important');
-			$("#virtualCoop").css('border-radius','48px 0 0 0');
+			$("#virtualCoop").css('border-radius','48px 0 0 0');*/
 
 		}, function(){
 			$(this).removeClass("imgcoopred");
